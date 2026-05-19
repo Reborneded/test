@@ -1,0 +1,38 @@
+# Секреты
+*.env
+*.env.*
+*.secret
+*.key
+*.pem
+*.crt
+
+# Базы данных
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+
+# Логи
+logs/
+*.log
+
+# Кэш
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+*.so
+
+# Docker (кроме конфигов)
+!.dockerignore
+!Dockerfile
+.docker/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
